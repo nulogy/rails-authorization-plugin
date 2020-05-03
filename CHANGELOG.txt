@@ -9,6 +9,9 @@ TO DO
 
 CHANGES (from most recent to oldest)
 
+=== 1.0.14 release (Sept 22, 2018)
+
+* The before_filter method will be removed in Rails 5.1. Use before_action instead.
 
 === 1.0.10 release (February 27, 2008)
 
