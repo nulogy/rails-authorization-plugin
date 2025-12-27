@@ -9,7 +9,11 @@ TO DO
 
 CHANGES (from most recent to oldest)
 
-=== 1.0.14 release (Sept 22, 2018)
+=== 1.0.15 release (December 27, 2025)
+
+* Include Authorization::Base into ActionController::API during initialization
+
+=== 1.0.14 release (September 22, 2018)
 
 * The before_filter method will be removed in Rails 5.1. Use before_action instead.
 
