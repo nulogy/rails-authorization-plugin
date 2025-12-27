@@ -147,7 +147,9 @@ module Authorization
 
   end
 end
+
 ActionController::Base.send( :include, Authorization::Base ) if defined?(ActionController)
+ActionController::API.send( :include, Authorization::Base ) if defined?(ActionController)
 ActionView::Base.send( :include, Authorization::Base::ControllerInstanceMethods ) if defined?(ActionView)
 
 # You can perform authorization at varying degrees of complexity.
